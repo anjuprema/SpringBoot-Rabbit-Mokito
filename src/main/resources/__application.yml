@@ -1,0 +1,16 @@
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.anju.demo: ERROR
+  pattern:    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  file:
+    name: D:/STS_workspace/LogFiles/RabbitMokitoRefresh/RabbitMokitoRefreshYML.log
+application:
+  written:
+    by: Anju Prema
+dateOfBirth: 21/11/1985
+server:
+  port: 9051
+
+#Rename application.properties file to enable application.yml
